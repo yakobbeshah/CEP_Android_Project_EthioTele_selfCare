@@ -2,7 +2,7 @@
 Our app name is BeqelaluTele
 
 ## Group Members
-###Yakob Beshahwered
-###Akrem Muktar
-###Ekram Abdellah
-###Natenael Nigussie
+ <br />Yakob Beshahwered
+ <br />Akrem Muktar
+ <br />Ekram Abdellah
+ <br />Natenael Nigussie
