@@ -8,4 +8,4 @@ Our app name is BeqelaluTele
  <li>Ekram Abdellah</li>
  <li>Natenael Nigussie</li>
  </ul>
-<li>test
+
