@@ -29,7 +29,12 @@ android {
 }
 
 dependencies {
+    //rounded image view
+   implementation 'com.makeramen:roundedimageview:2.3.0'
 
+    //navigation component
+    implementation 'android.navigation:navigation-fragment-ktx:2.4.0-rc03'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.5.2'
     implementation 'androidx.appcompat:appcompat:1.5.1'
     implementation 'com.google.android.material:material:1.6.1'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
