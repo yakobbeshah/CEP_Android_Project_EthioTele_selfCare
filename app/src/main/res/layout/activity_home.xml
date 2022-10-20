@@ -47,19 +47,84 @@
 
         </LinearLayout>
 
+
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/navigetionView"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:layout_gravity="start" >
+        android:layout_gravity="start"
+        android:background="#111125">
 
 
-        <TextView
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="Test2"/>
+            android:layout_height="250dp"
+            android:background="@drawable/logo_beqelalu"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="bottom"
+                android:background="#5CFFFFFF"
+                android:text="BeqelaluTele"
+                android:textColor="#221443"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="bottom"
+                android:background="#5CFFFFFF"
+                android:text="©2015 By CodeChat"
+                android:textColor="#221443"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+        <ScrollView
+            android:layout_width="397dp"
+            android:layout_height="592dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="251dp"
+            android:layout_gravity="bottom"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Theme"
+                    android:textSize="30dp"
+                    android:textColor="#fff"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Languege"
+                    android:textSize="30dp"
+                    android:textColor="#fff"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="ShareApp"
+                    android:textSize="30dp"
+                    android:textColor="#fff"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Aboutus"
+                    android:textSize="30dp"
+                    android:textColor="#fff"/>
+            </LinearLayout>
+        </ScrollView>
     </com.google.android.material.navigation.NavigationView>
 
 
