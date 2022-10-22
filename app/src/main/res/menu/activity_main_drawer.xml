@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/theme"
+            android:icon="@drawable/ic_theme"
+            android:title="Theme">
+        </item>
+        <item
+            android:title="Languege"
+            android:icon="@drawable/icl_anguage">
+            <menu>
+                <item
+                    android:id="@+id/am"
+                    android:icon="@drawable/icl_anguage"
+                    android:title="Amharic"/>
+                <item
+                    android:id="@+id/en"
+                    android:icon="@drawable/icl_anguage"
+                    android:title="English"/>
+            </menu>
+        </item>
+        <item
+            android:title="Communication"
+            android:icon="@drawable/ic_share">
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/ic_share"
+                android:title="ShareApp"/>
+            <item
+                android:id="@+id/cont"
+                android:icon="@drawable/ic_share"
+                android:title="ContactUs"/>
+        </menu>
+        </item>
+        <item
+            android:id="@+id/aboutUs"
+            android:icon="@drawable/ic_about"
+            android:title="AboutUs"/>
+
+    </group>
+
+</menu>

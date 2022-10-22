@@ -5,10 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".HomeActivity"
-    android:id="@+id/drawerLayout">
+    android:id="@+id/drawerLayout"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="star">
+    <!--home view-->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+        <!--navigation bar-->
         <LinearLayout
             android:id="@+id/layoutToolBar"
             android:layout_width="match_parent"
@@ -19,8 +23,6 @@
             android:paddingEnd="15dp"
             app:layout_constraintTop_toTopOf="parent"
             android:background="#182943">
-
-
             <ImageView
                 android:src="@drawable/ic_menu"
                 android:id="@+id/imageMenu"
@@ -43,23 +45,62 @@
                 android:layout_marginLeft="-40dp"
                 android:src="@drawable/ic_help"
                 app:tint="@color/white" />
-
-
         </LinearLayout>
+        <!--bottomNAvigation bar-->
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/navigetion_bottom"
+            android:layout_width="409dp"
+            android:layout_height="69dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
+            android:background="#1B2033"
+            android:paddingLeft="30dp"
+            app:itemIconTint="@color/white"
+            app:itemTextColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/layoutToolBar"
+            app:layout_constraintVertical_bias="1.0"
+            app:menu="@menu/bottom_navigetion" />
 
-
-
+        <Button
+            android:id="@+id/buttonAccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="161dp"
+            android:layout_marginBottom="272dp"
+            android:text="*804#"
+            app:layout_constraintBottom_toTopOf="@+id/navigetion_bottom"
+            app:layout_constraintStart_toStartOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
+    <!-- navigationView for humberger Menu-->
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/navigetionView"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        android:background="#111125">
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/header_main"
+        app:menu="@menu/activity_main_drawer"
+        app:itemTextColor="@color/white"
+        app:itemIconTint="@color/white"
+        android:background="#0D1545"
+        >
+    </com.google.android.material.navigation.NavigationView>
+
+</androidx.drawerlayout.widget.DrawerLayout>
 
 
-        <LinearLayout
+
+
+
+<!-- this kind of coding is bad
+ <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="250dp"
             android:background="@drawable/logo_beqelalu"
@@ -87,45 +128,46 @@
 
 
         </LinearLayout>
+
         <ScrollView
             android:layout_width="397dp"
-            android:layout_height="592dp"
-            tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="251dp"
+            android:layout_height="476dp"
             android:layout_gravity="bottom"
-            >
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="251dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical" >
+                android:orientation="vertical">
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="Theme"
-                    android:textSize="30dp"
-                    android:textColor="#fff"/>
+                    android:textColor="#fff"
+                    android:textSize="30dp" />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="Languege"
-                    android:textSize="30dp"
-                    android:textColor="#fff"/>
+                    android:textColor="#fff"
+                    android:textSize="30dp" />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="ShareApp"
-                    android:textSize="30dp"
-                    android:textColor="#fff"/>
+                    android:textColor="#fff"
+                    android:textSize="30dp" />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="Aboutus"
-                    android:textSize="30dp"
-                    android:textColor="#fff"/>
+                    android:textColor="#fff"
+                    android:textSize="30dp" />
             </LinearLayout>
         </ScrollView>
-    </com.google.android.material.navigation.NavigationView>
-
-
-</androidx.drawerlayout.widget.DrawerLayout>
+-->
