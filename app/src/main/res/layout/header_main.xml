@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="0dp">
+
+    <ImageView
+        android:id="@+id/imageNav"
+        android:layout_width="280dp"
+        android:layout_height="230dp"
+        android:padding="0dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/logo_beqelalu"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom"
+        android:text="BeqelaluTele"
+        android:layout_marginLeft="5dp"
+        android:textColor="#221443"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_gravity="bottom"
+        android:text="©2015 CodeChat"
+        android:layout_marginLeft="5dp"
+        android:textColor="#221443"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+</LinearLayout>
