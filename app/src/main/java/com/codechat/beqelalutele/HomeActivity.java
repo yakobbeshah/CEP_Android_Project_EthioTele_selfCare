@@ -1,6 +1,7 @@
 package com.codechat.beqelalutele;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
@@ -11,6 +12,7 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 import android.Manifest;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
@@ -20,16 +22,25 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.material.navigation.NavigationView;
 
-public class HomeActivity extends AppCompatActivity {
+// we implment navigationView for button actions
+public class HomeActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     private static final int REQUEST_CALL = 1;
+    AlertDialog.Builder builder;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
+
+        builder = new AlertDialog.Builder(this);
         final DrawerLayout drawerLayout = findViewById(R.id.drawerLayout);
+
+        NavigationView navigationView = (NavigationView) findViewById(R.id.navigetionView);
+        navigationView.setNavigationItemSelectedListener(this);
+
 
         findViewById(R.id.imageMenu).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -40,7 +51,19 @@ public class HomeActivity extends AppCompatActivity {
         findViewById(R.id.phoneHelp).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                callHelp();
+                builder.setTitle("Help!!").setMessage("Do you want to call 994?").setCancelable(true)
+                                .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                                    @Override
+                                    public void onClick(DialogInterface dialogInterface, int i) {
+                                        callHelp();
+                                    }
+                                })
+                        .setNegativeButton("No", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialogInterface, int i) {
+                                dialogInterface.cancel();
+                            }
+                        }).show();
             }
         });
         findViewById(R.id.buttonAccount).setOnClickListener(new View.OnClickListener() {
@@ -74,6 +97,7 @@ public class HomeActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    // this is for call permission
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
@@ -85,5 +109,28 @@ public class HomeActivity extends AppCompatActivity {
                 Toast.makeText(this, "Permission Denied", Toast.LENGTH_SHORT).show();
             }
         }
+    }
+
+    // this is for draweble navigation buttons
+    @Override
+    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+        int id = item.getItemId();
+
+        if (id == R.id.exit){
+            builder.setTitle("Confirm Exit!!").setMessage("Are you sure you want to Exit?").setCancelable(true)
+                    .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialogInterface, int i) {
+                            finish();
+                        }
+                    })
+                    .setNegativeButton("No", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialogInterface, int i) {
+                            dialogInterface.cancel();
+                        }
+                    }).show();
+        }
+        return true;
     }
 }

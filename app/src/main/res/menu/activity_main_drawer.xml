@@ -10,16 +10,15 @@
             android:title="Theme">
         </item>
         <item
-            android:title="Languege"
-            android:icon="@drawable/icl_anguage">
+            android:title="Languege">
             <menu>
                 <item
                     android:id="@+id/am"
-                    android:icon="@drawable/icl_anguage"
+                    android:icon="@drawable/ic_lnag"
                     android:title="Amharic"/>
                 <item
                     android:id="@+id/en"
-                    android:icon="@drawable/icl_anguage"
+                    android:icon="@drawable/ic_lnag"
                     android:title="English"/>
             </menu>
         </item>
@@ -41,6 +40,10 @@
             android:id="@+id/aboutUs"
             android:icon="@drawable/ic_about"
             android:title="AboutUs"/>
+        <item
+            android:id="@+id/exit"
+            android:icon="@drawable/ic_exit"
+            android:title="Exit"/>
 
     </group>
 
