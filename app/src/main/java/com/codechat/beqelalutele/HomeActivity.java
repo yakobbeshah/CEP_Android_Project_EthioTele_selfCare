@@ -27,7 +27,6 @@ import com.google.android.material.navigation.NavigationView;
 // we implment navigationView for button actions
 public class HomeActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     private static final int REQUEST_CALL = 1;
-   // final DrawerLayout drawerLayout = findViewById(R.id.drawerLayout);
     BottomNavigationView bottmNav;
     AlertDialog.Builder builder;
 
@@ -68,12 +67,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
                         }).show();
             }
         });
- //        findViewById(R.id.buttonAccount).setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                AccountBalance();
-//            }
-//        });
+
       
         bottmNav=findViewById(R.id.navigetion_bottom);
         bottmNav.setOnNavigationItemSelectedListener(navListener);
@@ -85,8 +79,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
         ,new HomeFragment()).commit();
     }
     
-     private BottomNavigationView.OnNavigationItemSelectedListener navListener=
-            new BottomNavigationView.OnNavigationItemSelectedListener() {
+    private BottomNavigationView.OnNavigationItemSelectedListener navListener= new BottomNavigationView.OnNavigationItemSelectedListener() {
                 @Override
                 public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                   Fragment selectedFragment=null;
@@ -114,33 +107,18 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
 
                 }
             };
-    
-    
-    
-    
+
     private void callHelp() {
-        String number = "994";
-        if (number.trim().length() > 0) {
-            if (ContextCompat.checkSelfPermission(HomeActivity.this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
-                ActivityCompat.requestPermissions(HomeActivity.this, new String[]{Manifest.permission.CALL_PHONE}, REQUEST_CALL);
+            String number = "994";
+            if (number.trim().length() > 0) {
+                if (ContextCompat.checkSelfPermission(HomeActivity.this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
+                    ActivityCompat.requestPermissions(HomeActivity.this, new String[]{Manifest.permission.CALL_PHONE}, REQUEST_CALL);
+                }
             }
+            String dial = "tel:" + number;
+            startActivity(new Intent(Intent.ACTION_CALL, Uri.parse(dial)));
         }
-        String dial = "tel:" + number;
-        startActivity(new Intent(Intent.ACTION_CALL, Uri.parse(dial)));
-    }
-    //    private void AccountBalance() {
-//        String number = "*804";
-//        if (number.trim().length() > 0) {
-//            if (ContextCompat.checkSelfPermission(HomeActivity.this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
-//                ActivityCompat.requestPermissions(HomeActivity.this, new String[]{Manifest.permission.CALL_PHONE}, REQUEST_CALL);
-//            }
-//        }
-//        String dial = "tel:" + number ;
-//        Intent intent = new Intent(Intent.ACTION_CALL);
-//        intent.setData(Uri.parse(Uri.parse(dial)+Uri.encode("#")));
-//        startActivity(intent);
-//    }
-    // this is for call permission
+
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
@@ -153,6 +131,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
             }
         }
     }
+
 
     // this is for draweble navigation buttons
     @Override
@@ -176,4 +155,6 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
         }
         return true;
     }
+
+
 }

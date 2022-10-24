@@ -2,9 +2,9 @@
     <!-- Base application theme. -->
     <style name="Theme.BeqelaluTele" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_200</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
-        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorPrimary">#182943</item>
+        <item name="colorPrimaryVariant">#182943</item>
+        <item name="colorOnPrimary">#182943</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
         <item name="colorSecondaryVariant">@color/teal_200</item>

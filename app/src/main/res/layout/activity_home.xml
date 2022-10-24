@@ -7,6 +7,7 @@
     tools:context=".HomeActivity"
     android:id="@+id/drawerLayout"
     android:fitsSystemWindows="true"
+    android:background="#182943"
     tools:openDrawer="start">
     <!--home view-->
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -55,20 +56,20 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="56dp"
-            android:layout_marginBottom="74dp"
+            android:layout_marginBottom="71dp"
             />
 
 
         <!--bottom Navigation bar-->
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/navigetion_bottom"
-            android:layout_width="409dp"
+            android:layout_width="wrap_content"
             android:layout_height="69dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="1dp"
             android:layout_marginEnd="1dp"
             android:layout_marginBottom="1dp"
-            android:background="#1B2033"
+            android:background="#182943"
             android:paddingLeft="30dp"
             app:itemIconTint="@color/white"
             app:itemTextColor="@color/white"
@@ -77,8 +78,10 @@
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/fragmentContainer"
+            app:layout_constraintBaseline_toTopOf="parent"
             app:layout_constraintVertical_bias="1.0"
-            app:menu="@menu/bottom_navigetion" />
+            app:menu="@menu/bottom_navigetion"
+            />
 
 <!--        <Button-->
 <!--            android:id="@+id/buttonAccount"-->
