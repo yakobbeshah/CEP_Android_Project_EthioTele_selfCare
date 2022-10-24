@@ -29,13 +29,19 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
     private static final int REQUEST_CALL = 1;
     BottomNavigationView bottmNav;
     AlertDialog.Builder builder;
-
+    String number = "994";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
 
+
+        if (number.trim().length() > 0) {
+            if (ContextCompat.checkSelfPermission(HomeActivity.this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
+                ActivityCompat.requestPermissions(HomeActivity.this, new String[]{Manifest.permission.CALL_PHONE}, REQUEST_CALL);
+            }
+        }
         builder = new AlertDialog.Builder(this);
         final DrawerLayout drawerLayout = findViewById(R.id.drawerLayout);
 
@@ -109,12 +115,6 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
             };
 
     private void callHelp() {
-            String number = "994";
-            if (number.trim().length() > 0) {
-                if (ContextCompat.checkSelfPermission(HomeActivity.this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
-                    ActivityCompat.requestPermissions(HomeActivity.this, new String[]{Manifest.permission.CALL_PHONE}, REQUEST_CALL);
-                }
-            }
             String dial = "tel:" + number;
             startActivity(new Intent(Intent.ACTION_CALL, Uri.parse(dial)));
         }
