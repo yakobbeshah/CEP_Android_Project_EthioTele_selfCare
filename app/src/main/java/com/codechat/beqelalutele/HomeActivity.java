@@ -27,7 +27,7 @@ import com.google.android.material.navigation.NavigationView;
 // we implment navigationView for button actions
 public class HomeActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     private static final int REQUEST_CALL = 1;
-    final DrawerLayout drawerLayout = findViewById(R.id.drawerLayout);
+   // final DrawerLayout drawerLayout = findViewById(R.id.drawerLayout);
     BottomNavigationView bottmNav;
     AlertDialog.Builder builder;
 
