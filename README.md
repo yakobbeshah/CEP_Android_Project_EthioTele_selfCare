@@ -9,5 +9,6 @@ The tasks that our application does are to easily perform the main services of E
  <li> Akrem Muktar</li>
  <li>Ekram Abdellah</li>
  <li>Natenael Nigussie</li>
+ <li>Kidus Belay</li>
  </ul>
 
