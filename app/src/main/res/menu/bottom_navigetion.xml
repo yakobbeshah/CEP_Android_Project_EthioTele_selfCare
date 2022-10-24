@@ -14,7 +14,7 @@
         android:icon="@drawable/ic_package"
         android:title="Package"/>
     <item
-        android:id="@+id/creadit"
+        android:id="@+id/credit"
         android:icon="@drawable/ic_credit"
         android:title="Credit"/>
 
