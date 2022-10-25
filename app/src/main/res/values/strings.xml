@@ -1,5 +1,29 @@
 <resources>
     <string name="app_name">BeqelaluTele</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="acc">Account</string>
+        <string name="bal">Balance</string>
+        <string name="rec">Recharge</string>
+        <string name="tra">Transfer</string>
+        <string name="cmb">Call Me Back</string>
+        <string name="pay">Pay Bill</string>
+
+    <string name="Package">Package</string>
+        <string name="flx_pac">Flexi Packages</string>
+        <string name="recu">Recurring</string>
+        <string name="internet">Internet</string>
+        <string name="voi">Voice</string>
+        <string name="sms">Sms</string>
+        <string name="voice_data">Voice Plus Internet</string>
+        <string name="inter_call">International Voice Packages</string>
+        <string name="unl_pre">Unlimited Premium</string>
+        <string name="long_run_pac">Long Run Packages</string>
+        <string name="daily">Maleda Packages</string>
+        <string name="loc_net_fle_voice_pac">Local Network Flexi Voice Package</string>
+
+        <string name="ele">Eligibility</string>
+        <string name="cre">Credit</string>
+        <string name="debit">Debit Info</string>
+    <string name="about">About Us</string>
+
 </resources>

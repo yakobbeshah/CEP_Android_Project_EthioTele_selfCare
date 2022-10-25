@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"በቀላሉ ቴሌ"</string>
+    <string name="acc">"ሒሳብ"</string>
+    <string name="bal">ቀሪ ሒሳብ</string>
+    <string name="rec">ሒሳብ መሙላት</string>
+    <string name="tra">"ሒሳብ ማስተላለፍ"</string>
+    <string name="cmb">"መልሰው ይደውሉልኝ"</string>
+    <string name="pay">ሒሳብ ይክፈሉ</string>
+    <string name="Package">ጥቅል</string>
+    <string name="flx_pac">Flex ጥቅሎች</string>
+    <string name="recu">"ቋሚ ጥቅል"</string>
+    <string name="internet">"ኢንተርኔት ጥቅል "</string>
+    <string name="voi">ድምጽ ጥቅል</string>
+    <string name="sms">መልእክት ጥቅል</string>
+    <string name="voice_data">ድምጽ እና ኢንተርኔት</string>
+    <string name="inter_call">ዓለም አቀፍ የድምጽ ጥቅሎች</string>
+    <string name="unl_pre">ያልተገደበ ፕሪሚየም</string>
+    <string name="long_run_pac">"የረጅም ጊዜ ጥቅል"</string>
+    <string name="daily">የማለዳ ጥቅል</string>
+    <string name="loc_net_fle_voice_pac">ለሁሉም ሀገር የFlexi ድምጽ ጥቅል</string>
+    <string name="ele">ብቁነት</string>
+    <string name="cre">ብድር</string>
+    <string name="debit">የብድር መረጃ</string>
+    <string name="about">" ስለ እኛ "</string>
+</resources>
