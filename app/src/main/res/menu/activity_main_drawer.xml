@@ -10,41 +10,29 @@
             android:title="Theme">
         </item>
         <item
-            android:title="Languege">
-            <menu>
-                <item
-                    android:id="@+id/am"
-                    android:icon="@drawable/ic_lnag"
-                    android:title="Amharic"/>
-                <item
-                    android:id="@+id/en"
-                    android:icon="@drawable/ic_lnag"
-                    android:title="English"/>
-            </menu>
-        </item>
+            android:id="@+id/am"
+            android:icon="@drawable/ic_lnag"
+            android:title="Languege"/>
+
+
+
         <item
-            android:title="Communication"
-            android:icon="@drawable/ic_share">
-        <menu>
-            <item
-                android:id="@+id/share"
-                android:icon="@drawable/ic_share"
-                android:title="ShareApp"/>
-            <item
-                android:id="@+id/cont"
-                android:icon="@drawable/ic_share"
-                android:title="ContactUs"/>
-        </menu>
-        </item>
+            android:id="@+id/share"
+            android:icon="@drawable/ic_share"
+            android:title="ShareApp"/>
         <item
             android:id="@+id/aboutUs"
             android:icon="@drawable/ic_about"
             android:title="AboutUs"/>
         <item
-            android:id="@+id/exit"
-            android:icon="@drawable/ic_exit"
-            android:title="Exit"/>
-
+            android:title="">
+            <menu>
+                <item
+                    android:id="@+id/exit"
+                    android:icon="@drawable/ic_exit"
+                    android:title="Exit" />
+            </menu>
+        </item>
     </group>
 
 </menu>

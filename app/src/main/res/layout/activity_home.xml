@@ -109,6 +109,7 @@
         app:itemIconTint="@color/white"
         android:background="#0D1545"
         >
+
     </com.google.android.material.navigation.NavigationView>
 
 </androidx.drawerlayout.widget.DrawerLayout>
