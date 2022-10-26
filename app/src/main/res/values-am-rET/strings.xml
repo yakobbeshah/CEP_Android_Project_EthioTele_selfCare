@@ -22,5 +22,6 @@
     <string name="ele">ብቁነት</string>
     <string name="cre">ብድር</string>
     <string name="debit">የብድር መረጃ</string>
-    <string name="about">" ስለ እኛ "</string>
+    <string name="about">"ስለ እኛ "</string>
+    <string name="home">"መነሻ "</string>
 </resources>

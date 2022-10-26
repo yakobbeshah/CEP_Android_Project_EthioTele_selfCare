@@ -25,5 +25,6 @@
         <string name="cre">Credit</string>
         <string name="debit">Debit Info</string>
     <string name="about">About Us</string>
+    <string name="home">Home</string>
 
 </resources>
