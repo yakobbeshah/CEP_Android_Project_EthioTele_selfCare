@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">BeqelaluTele</string>
     <!-- TODO: Remove or change this placeholder text -->
+    <!--account page-->
     <string name="acc">Account</string>
         <string name="bal">Balance</string>
         <string name="rec">Recharge</string>
@@ -8,6 +9,7 @@
         <string name="cmb">Call Me Back</string>
         <string name="pay">Pay Bill</string>
 
+    <!--package page-->
     <string name="Package">Package</string>
         <string name="flx_pac">Flexi Packages</string>
         <string name="recu">Recurring</string>
@@ -21,10 +23,18 @@
         <string name="daily">Maleda Packages</string>
         <string name="loc_net_fle_voice_pac">Local Network Flexi Voice Package</string>
 
+    <!--credit page-->
         <string name="ele">Eligibility</string>
         <string name="cre">Credit</string>
         <string name="debit">Debit Info</string>
     <string name="about">About Us</string>
     <string name="home">Home</string>
+
+
+    <string name="theme">Theme</string>
+    <string name="lang">Languege</string>
+    <string name="share">Share App</string>
+    <string name="exit">Exit</string>
+
 
 </resources>
