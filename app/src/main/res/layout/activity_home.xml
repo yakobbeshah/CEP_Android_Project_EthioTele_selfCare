@@ -7,8 +7,8 @@
     tools:context=".HomeActivity"
     android:id="@+id/drawerLayout"
     android:fitsSystemWindows="true"
-    android:background="#CFCDD1"
-    tools:openDrawer="star">
+    android:background="@drawable/home_bg"
+    tools:openDrawer="start">
     <!--home view-->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -56,16 +56,16 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="56dp"
-            android:layout_marginBottom="71dp"
+            android:layout_marginBottom="40dp"
             />
 
 
         <!--bottom Navigation bar-->
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/navigetion_bottom"
-            android:layout_width="412dp"
-            android:layout_height="73dp"
-            android:background="#182943"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:background="@drawable/bottom_nav_bg"
             app:itemIconTint="@color/white"
             app:itemTextColor="@color/white"
             app:layout_constraintBaseline_toTopOf="parent"
@@ -100,9 +100,7 @@
         android:fitsSystemWindows="true"
         app:headerLayout="@layout/header_main"
         app:menu="@menu/activity_main_drawer"
-        app:itemTextColor="@color/white"
-        app:itemIconTint="@color/white"
-        android:background="#0D1545"
+        android:background="@drawable/drawer_bg"
         >
 
     </com.google.android.material.navigation.NavigationView>

@@ -4,9 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".HomeFragment"
-    android:layout_margin="10dp"
-    android:background="#CFCDD1">
+    tools:context=".HomeFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -45,11 +43,10 @@
                      android:layout_height="30dp"
                      android:layout_alignParentEnd="true"
                      android:layout_alignParentBottom="true"
-
                      android:layout_marginEnd="18dp"
                      android:layout_marginBottom="12dp"
                      android:onClick="expand"
-                     android:src="@drawable/ic_expand" />
+                     android:src="@drawable/ic_baseline_arrow" />
              </RelativeLayout>
 
          </com.google.android.material.card.MaterialCardView>
@@ -58,7 +55,7 @@
             android:layout_width="match_parent"
             android:layout_height="170dp"
             app:cardCornerRadius="25dp"
-            android:backgroundTint="#FFFFFF"
+            android:backgroundTint="#ffffff"
             android:scrollbarStyle="insideInset"
             app:cardPreventCornerOverlap="false"
             android:layout_marginBottom="20dp">
@@ -86,7 +83,7 @@
                     android:layout_marginEnd="18dp"
                     android:layout_marginBottom="12dp"
                     android:onClick="expand"
-                    android:src="@drawable/ic_expand" />
+                    android:src="@drawable/ic_baseline_arrow" />
             </RelativeLayout>
         </com.google.android.material.card.MaterialCardView>
 
@@ -94,7 +91,7 @@
             android:layout_width="match_parent"
             android:layout_height="170dp"
             app:cardCornerRadius="25dp"
-            android:backgroundTint="#FFFFFF"
+            android:backgroundTint="#ffffff"
             android:scrollbarStyle="insideInset"
             app:cardPreventCornerOverlap="false"
             android:layout_marginBottom="20dp">
@@ -123,7 +120,7 @@
                     android:layout_marginEnd="18dp"
                     android:layout_marginBottom="12dp"
                     android:onClick="expand"
-                    android:src="@drawable/ic_expand" />
+                    android:src="@drawable/ic_baseline_arrow" />
             </RelativeLayout>
         </com.google.android.material.card.MaterialCardView>
 
@@ -131,7 +128,7 @@
             android:layout_width="match_parent"
             android:layout_height="170dp"
             app:cardCornerRadius="25dp"
-            android:backgroundTint="#FFFFFF"
+            android:backgroundTint="#ffffff"
             android:scrollbarStyle="insideInset"
             app:cardPreventCornerOverlap="false"
             android:layout_marginBottom="20dp">
@@ -159,7 +156,7 @@
                     android:layout_marginEnd="18dp"
                     android:layout_marginBottom="12dp"
                     android:onClick="expand"
-                    android:src="@drawable/ic_expand" />
+                    android:src="@drawable/ic_baseline_arrow" />
             </RelativeLayout>
         </com.google.android.material.card.MaterialCardView>
 
