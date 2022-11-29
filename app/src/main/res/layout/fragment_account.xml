@@ -3,10 +3,125 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AccountFragment"
-    android:background="#291311">
+    tools:context=".AccountFragment">
 
     <!-- TODO: Update blank fragment layout -->
 
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:paddingBottom="50dp"
+            android:orientation="vertical">
+            <Button
+                android:layout_width="320sp"
+                android:layout_height="100sp"
+                android:layout_marginLeft="30sp"
+                android:textAlignment="textStart"
+                android:text="@string/bal"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:fontFamily="monospace"
+                android:textStyle="bold"
+                android:paddingLeft="20dp"
+                android:background="@drawable/btnbg"
+                android:textSize="30sp"
+                />
+            <LinearLayout
+                android:layout_width="320sp"
+                android:layout_height="150sp"
+                android:layout_marginLeft="30sp"
+                android:layout_marginTop="20dp"
+                android:textAlignment="textStart"
+                android:text="@string/bal"
+                android:textColor="#fff"
+                android:padding="20dp"
+                android:background="@drawable/btnbg"
+                android:orientation="vertical"
+                android:textSize="40sp">
+                <EditText
+                    android:layout_width="250sp"
+                    android:layout_height="50sp"
+                    android:hint="Enter The Card Number"
+                    android:textColor="#fff"
+                    android:inputType="number"
+                    android:textColorHint="#8A8989"
+                    />
+                <Button
+                    android:layout_width="100sp"
+                    android:layout_height="50sp"
+                    android:text="@string/rec"
+                    android:textColor="#fff"
+                    android:background="@drawable/btnbg2"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="320sp"
+                android:layout_height="200sp"
+                android:layout_marginLeft="30sp"
+                android:layout_marginTop="20dp"
+                android:textAlignment="textStart"
+                android:text="@string/bal"
+                android:textColor="#fff"
+                android:padding="20dp"
+                android:background="@drawable/btnbg"
+                android:orientation="vertical"
+                android:textSize="40sp">
+                <EditText
+                    android:layout_width="250sp"
+                    android:layout_height="50sp"
+                    android:hint="Enter The Phone Number"
+                    android:textColor="#fff"
+                    android:inputType="phone"
+                    android:textColorHint="#8A8989"
+                    />
+                <EditText
+                    android:layout_width="250sp"
+                    android:layout_height="50sp"
+                    android:hint="Enter The Ammount"
+                    android:textColor="#fff"
+                    android:inputType="number"
+                    android:textColorHint="#8A8989"
+                    />
+                <Button
+                    android:layout_width="100sp"
+                    android:layout_height="50sp"
+                    android:text="@string/tra"
+                    android:textColor="#fff"
+                    android:background="@drawable/btnbg2"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="320sp"
+                android:layout_height="150sp"
+                android:layout_marginLeft="30sp"
+                android:layout_marginTop="20dp"
+                android:textAlignment="textStart"
+                android:text="@string/bal"
+                android:textColor="#fff"
+                android:padding="20dp"
+                android:background="@drawable/btnbg"
+                android:orientation="vertical"
+                android:textSize="40sp">
+                <EditText
+                    android:layout_width="250sp"
+                    android:layout_height="50sp"
+                    android:hint="Enter The Phone Number"
+                    android:textColor="#fff"
+                    android:inputType="phone"
+                    android:textColorHint="#8A8989"
+                    />
+                <Button
+                    android:layout_width="100sp"
+                    android:layout_height="50sp"
+                    android:text="@string/cmb"
+                    android:textColor="#fff"
+                    android:background="@drawable/btnbg2"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
 </FrameLayout>
