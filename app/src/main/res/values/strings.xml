@@ -36,6 +36,10 @@
     <string name="share">Share App</string>
     <string name="exit">Exit</string>
     <string name="one_birr">One Birr Package</string>
+    <string name="enter_the_ammount">Enter The Ammount</string>
+    <string name="enter_the_phone_number">Enter The Phone Number</string>
+    <string name="enter_the_ph_number">Enter The Phone Number</string>
+    <string name="enter_the_card_number">Enter The Card Number</string>
 
 
 </resources>

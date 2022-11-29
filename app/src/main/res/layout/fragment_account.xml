@@ -47,7 +47,7 @@
                 <EditText
                     android:layout_width="250sp"
                     android:layout_height="50sp"
-                    android:hint="Enter The Card Number"
+                    android:hint="@string/enter_the_card_number"
                     android:textColor="#fff"
                     android:inputType="number"
                     android:textColorHint="#8A8989"
@@ -74,7 +74,7 @@
                 <EditText
                     android:layout_width="250sp"
                     android:layout_height="50sp"
-                    android:hint="Enter The Phone Number"
+                    android:hint="@string/enter_the_phone_number"
                     android:textColor="#fff"
                     android:inputType="phone"
                     android:textColorHint="#8A8989"
@@ -82,7 +82,7 @@
                 <EditText
                     android:layout_width="250sp"
                     android:layout_height="50sp"
-                    android:hint="Enter The Ammount"
+                    android:hint="@string/enter_the_ammount"
                     android:textColor="#fff"
                     android:inputType="number"
                     android:textColorHint="#8A8989"
@@ -109,7 +109,7 @@
                 <EditText
                     android:layout_width="250sp"
                     android:layout_height="50sp"
-                    android:hint="Enter The Phone Number"
+                    android:hint="@string/enter_the_ph_number"
                     android:textColor="#fff"
                     android:inputType="phone"
                     android:textColorHint="#8A8989"
