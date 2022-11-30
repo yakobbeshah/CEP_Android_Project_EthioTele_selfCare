@@ -151,6 +151,10 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
                         }
                     }).show();
         }
+        if (id == R.id.account){
+            Intent intent = new Intent(HomeActivity.this, AboutActivity.class);
+            startActivity(intent);
+        }
         return true;
     }
 
