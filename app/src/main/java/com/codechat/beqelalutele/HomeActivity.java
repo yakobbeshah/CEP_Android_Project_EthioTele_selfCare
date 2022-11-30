@@ -160,6 +160,13 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
             Intent intent = new Intent(Intent.ACTION_VIEW,Uri.parse(url));
             startActivity(intent);
         }
+        if (id == R.id.share){
+            Intent intent = new Intent();
+            intent.setAction(Intent.ACTION_SEND);
+            intent.setType("text/plain");
+            intent.putExtra(Intent.EXTRA_TEXT, "This is the share text");
+            startActivity(Intent.crruntChooser(intent, "Beqelalu Tele"));
+        }
         return true;
     }
 
