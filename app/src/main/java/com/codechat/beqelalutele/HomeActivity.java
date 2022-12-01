@@ -33,7 +33,10 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        loadLocale();
         setContentView(R.layout.activity_home);
+        
+        
 
         if (number.trim().length() > 0) {
             if (ContextCompat.checkSelfPermission(HomeActivity.this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
@@ -174,6 +177,44 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
     }
     
     privet void showChangeLanguageDialog(){
+        final String[] listItem = {"English", "አማርኛ"};
+        AlertDialog.Builder mBuilder = new AlertDialog.Builder(HomeActivity.this);
+        mBuilder.setTitle("Choose Language");
+        mBuilder.setSingleChoiceItems (listItem, -1, new DialogInterface.OnClickListener(){
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                if (i == 0) {
+                    setLocale("En");
+                    recreate();
+                }
+                else if (i == 1) {
+                    setLocale("Am");
+                    recreate();
+                }
+                dialogInterface.dismiss();
+                
+            }
+        });
+        
+        AlertDialog mDialog = mBuilder.create();
+        mDialog.show();
+    }
+    
+    private void setLocale(String lang) {
+        Locale locale = new Locale(lang);
+        Locale.setDefault(locale);
+        Configuration config = new Configuration();
+        config.locale = locale;
+        getBaseContext().getResource().updateConfiguration(config, getBaseContext().getResource().getDisplayMatrics());
+        SharedPreferences.Editor editor = getSharedPreferences("Settings", MODE_PRIVATE).edit();
+        editor.putString("My_Lang", lang);
+        editor.apply();
+    }
+    
+    public void loadLocale(){
+        SharedPreferences.Editor editor = getSharedPreferences("Settings", Activity.MODE_PRIVATE);
+        String language = prefs.getString("My_Lang", "");
+        setLocal(language);
     }
 
 }
