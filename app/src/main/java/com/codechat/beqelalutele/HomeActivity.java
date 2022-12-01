@@ -12,9 +12,12 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 import android.Manifest;
+import android.app.Activity;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
+import android.content.res.Configuration;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -24,6 +27,7 @@ import android.widget.Toast;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationView;
 
+import java.util.Locale;
 // we implment navigationView for button actions
 public class HomeActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     private static final int REQUEST_CALL = 1;
@@ -176,7 +180,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
         return true;
     }
     
-    privet void showChangeLanguageDialog(){
+    private void showChangeLanguageDialog(){
         final String[] listItem = {"English", "አማርኛ"};
         AlertDialog.Builder mBuilder = new AlertDialog.Builder(HomeActivity.this);
         mBuilder.setTitle("Choose Language");
@@ -205,16 +209,16 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
         Locale.setDefault(locale);
         Configuration config = new Configuration();
         config.locale = locale;
-        getBaseContext().getResource().updateConfiguration(config, getBaseContext().getResource().getDisplayMatrics());
+        getBaseContext().getResources().updateConfiguration(config, getBaseContext().getResources().getDisplayMetrics());
         SharedPreferences.Editor editor = getSharedPreferences("Settings", MODE_PRIVATE).edit();
         editor.putString("My_Lang", lang);
         editor.apply();
     }
     
     public void loadLocale(){
-        SharedPreferences.Editor editor = getSharedPreferences("Settings", Activity.MODE_PRIVATE);
+        SharedPreferences prefs = getSharedPreferences("Settings", Activity.MODE_PRIVATE);
         String language = prefs.getString("My_Lang", "");
-        setLocal(language);
+        setLocale(language);
     }
 
 }
