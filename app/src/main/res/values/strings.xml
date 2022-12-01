@@ -31,7 +31,7 @@
     <string name="home">Home</string>
 
 
-    <string name="theme">Theme</string>
+    <string name="cont">Contact Us</string>
     <string name="lang">Languege</string>
     <string name="share">Share App</string>
     <string name="exit">Exit</string>
@@ -42,12 +42,19 @@
     <string name="enter_the_card_number">Enter The Card Number</string>
     <string name="aboutus">The tasks that our application does are to easily perform the main services of Ethio Tele, such as asking for a bill, sending money, as well as package services and credit services.</string>
     <string name="name">
-       <br>Yakob Beshahwered</br>
-       <br>Akrem Muktar</br>
-       <br>Ekram Abdellah</br>
-       <br>Natenael Nigussie</br>
-       <br>Kidus Belay</br>
+       <br>Yakob Beshahwered \n</br>
+       <br>Akrem Muktar \n</br>
+       <br>Ekram Abdellah \n</br>
+       <br>Natenael Nigussie \n</br>
+       <br>Kidus Belay \n</br>
+        <br>Surafel Eyob \n</br>
+
     </string>
+    <string name="title_activity_tabed">tabed_activity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>

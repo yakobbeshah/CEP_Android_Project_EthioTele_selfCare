@@ -151,13 +151,13 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
                         }
                     }).show();
         }
-        if (id == R.id.account){
+        if (id == R.id.aboutUs){
             Intent intent = new Intent(HomeActivity.this, AboutActivity.class);
             startActivity(intent);
         }
-        if (id == R.id.account){
-            String url = "https://t.me/+AGs6iuXM8bRlMjgo"
-            Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse(url);
+        if (id == R.id.contact){
+            String url = "https://t.me/precodechat";
+            Intent intent = new Intent(Intent.ACTION_VIEW,Uri.parse(url));
             startActivity(intent);
         }
         return true;
