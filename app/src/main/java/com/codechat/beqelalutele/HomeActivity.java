@@ -167,8 +167,13 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
             intent.putExtra(Intent.EXTRA_TEXT, "This is the share text");
             startActivity(Intent.crruntChooser(intent, "Beqelalu Tele"));
         }
+        if (id == R.id.lang){
+            showChangeLanguageDialog();
+        }
         return true;
     }
-
+    
+    privet void showChangeLanguageDialog(){
+    }
 
 }
