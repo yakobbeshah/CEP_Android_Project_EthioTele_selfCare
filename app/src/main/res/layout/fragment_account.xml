@@ -19,7 +19,8 @@
             android:paddingBottom="50dp"
             android:orientation="vertical">
             <Button
-                android:layout_width="320sp"
+                android:id="@+id/ask"
+                android:layout_width="370sp"
                 android:layout_height="100sp"
                 android:layout_marginLeft="30sp"
                 android:textAlignment="textStart"
@@ -28,24 +29,25 @@
                 android:textColor="#fff"
                 android:fontFamily="monospace"
                 android:textStyle="bold"
-                android:paddingLeft="20dp"
+                android:paddingLeft="20sp"
                 android:background="@drawable/btnbg"
                 android:textSize="30sp"
                 />
             <LinearLayout
-                android:layout_width="320sp"
+                android:layout_width="370sp"
                 android:layout_height="150sp"
                 android:layout_marginLeft="30sp"
                 android:layout_marginTop="20dp"
                 android:textAlignment="textStart"
                 android:text="@string/bal"
                 android:textColor="#fff"
-                android:padding="20dp"
+                android:padding="20sp"
                 android:background="@drawable/btnbg"
                 android:orientation="vertical"
                 android:textSize="40sp">
                 <EditText
-                    android:layout_width="250sp"
+                    android:id="@+id/card_number"
+                    android:layout_width="300sp"
                     android:layout_height="50sp"
                     android:hint="@string/enter_the_card_number"
                     android:textColor="#fff"
@@ -53,6 +55,7 @@
                     android:textColorHint="#8A8989"
                     />
                 <Button
+                    android:id="@+id/recharge"
                     android:layout_width="100sp"
                     android:layout_height="50sp"
                     android:text="@string/rec"
@@ -60,19 +63,20 @@
                     android:background="@drawable/btnbg2"/>
             </LinearLayout>
             <LinearLayout
-                android:layout_width="320sp"
+                android:layout_width="370sp"
                 android:layout_height="200sp"
                 android:layout_marginLeft="30sp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="20sp"
                 android:textAlignment="textStart"
                 android:text="@string/bal"
                 android:textColor="#fff"
-                android:padding="20dp"
+                android:padding="20sp"
                 android:background="@drawable/btnbg"
                 android:orientation="vertical"
                 android:textSize="40sp">
                 <EditText
-                    android:layout_width="250sp"
+                    android:id="@+id/transfer_number"
+                    android:layout_width="300sp"
                     android:layout_height="50sp"
                     android:hint="@string/enter_the_phone_number"
                     android:textColor="#fff"
@@ -80,7 +84,8 @@
                     android:textColorHint="#8A8989"
                     />
                 <EditText
-                    android:layout_width="250sp"
+                    android:id="@+id/transfer_ammount"
+                    android:layout_width="300sp"
                     android:layout_height="50sp"
                     android:hint="@string/enter_the_ammount"
                     android:textColor="#fff"
@@ -88,6 +93,7 @@
                     android:textColorHint="#8A8989"
                     />
                 <Button
+                    android:id="@+id/transfer"
                     android:layout_width="100sp"
                     android:layout_height="50sp"
                     android:text="@string/tra"
@@ -95,10 +101,10 @@
                     android:background="@drawable/btnbg2"/>
             </LinearLayout>
             <LinearLayout
-                android:layout_width="320sp"
+                android:layout_width="370sp"
                 android:layout_height="150sp"
                 android:layout_marginLeft="30sp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="20sp"
                 android:textAlignment="textStart"
                 android:text="@string/bal"
                 android:textColor="#fff"
@@ -107,7 +113,8 @@
                 android:orientation="vertical"
                 android:textSize="40sp">
                 <EditText
-                    android:layout_width="250sp"
+                    android:id="@+id/call_phone"
+                    android:layout_width="300sp"
                     android:layout_height="50sp"
                     android:hint="@string/enter_the_ph_number"
                     android:textColor="#fff"
@@ -115,6 +122,7 @@
                     android:textColorHint="#8A8989"
                     />
                 <Button
+                    android:id="@+id/call_back"
                     android:layout_width="100sp"
                     android:layout_height="50sp"
                     android:text="@string/cmb"

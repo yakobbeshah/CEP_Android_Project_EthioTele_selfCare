@@ -24,6 +24,8 @@
                  android:layout_height="match_parent"
                  android:background="@drawable/btnbg">
                  <TextView
+                     android:id="@+id/accountFrom"
+                     android:clickable="true"
                      android:layout_width="wrap_content"
                      android:layout_height="wrap_content"
                      android:layout_marginStart="20dp"
@@ -61,12 +63,14 @@
                 android:background="@drawable/btnbg">
 
                 <TextView
+                    android:id="@+id/pachageFrom"
+                    android:clickable="true"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="20dp"
-                    android:layout_marginStart="10dp"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginEnd="10dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="20dp"
                     android:text="@string/Package"
                     android:textColor="@color/black"
                     android:textSize="20sp"
@@ -97,6 +101,8 @@
                 android:background="@drawable/btnbg">
 
                 <TextView
+                    android:id="@+id/creditFrom"
+                    android:clickable="true"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="20dp"
@@ -135,6 +141,8 @@
                 android:background="@drawable/btnbg">
 
                 <TextView
+                    android:id="@+id/aboutusFrom"
+                    android:clickable="true"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="20dp"
