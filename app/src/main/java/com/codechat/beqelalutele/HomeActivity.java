@@ -165,7 +165,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
             intent.setAction(Intent.ACTION_SEND);
             intent.setType("text/plain");
             intent.putExtra(Intent.EXTRA_TEXT, "This is the share text");
-            startActivity(Intent.crruntChooser(intent, "Beqelalu Tele"));
+            startActivity(Intent.createChooser(intent, "Beqelalu Tele"));
         }
         return true;
     }

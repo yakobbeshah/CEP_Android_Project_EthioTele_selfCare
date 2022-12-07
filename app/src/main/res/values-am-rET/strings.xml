@@ -30,4 +30,8 @@
     <string name="exit">ውጣ</string>
     <string name="one_birr">የአንድ ብር ጥቅል</string>
     <string name="aboutus">የእኛ መተግበሪያ የሚያከናውናቸው ተግባራት የኢትዮ ቴሌን ዋና ዋና አገልግሎቶች ማለትም ቢል መጠየቅ፣ ገንዘብ መላክ፣ እንዲሁም የፓኬጅ አገልግሎቶችን እና የብድር አገልግሎቶችን በቀላሉ ማከናወን ነው።</string>
+    <string name="air">የአየር ሰዓት</string>
+    <string name="enter_the_card_number">እባክዎ የካርድ ቁጥሩን ያስገቡ</string>
+    <string name="enter_the_ph_number">እባክዎን ስልክ ቁጥሩን ያስገቡ</string>
+    <string name="enter_the_phone_number">እባክዎን ስልክ ቁጥሩን ያስገቡ</string>
 </resources>

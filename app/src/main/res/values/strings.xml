@@ -23,6 +23,7 @@
     <string name="daily">Maleda Packages</string>
     <string name="loc_net_fle_voice_pac">Local Network Flexi Voice Package</string>
 
+
     <!--credit page-->
     <string name="ele">Eligibility</string>
     <string name="cre">Credit</string>
@@ -31,15 +32,16 @@
     <string name="home">Home</string>
 
 
+
     <string name="cont">Contact Us</string>
     <string name="lang">Languege</string>
     <string name="share">Share App</string>
     <string name="exit">Exit</string>
     <string name="one_birr">One Birr Package</string>
-    <string name="enter_the_ammount">Enter The Ammount</string>
-    <string name="enter_the_phone_number">Enter The Phone Number</string>
-    <string name="enter_the_ph_number">Enter The Phone Number</string>
-    <string name="enter_the_card_number">Enter The Card Number</string>
+    <string name="enter_the_ammount">Pleas insert The Ammount</string>
+    <string name="enter_the_phone_number">Pleas insert The Phone Number</string>
+    <string name="enter_the_ph_number">Please insert The Phone Number</string>
+    <string name="enter_the_card_number">Pleas insert The Card Number</string>
     <string name="aboutus">The tasks that our application does are to easily perform the main services of Ethio Tele, such as asking for a bill, sending money, as well as package services and credit services.</string>
     <string name="name">
        <br>Yakob Beshahwered \n</br>
@@ -55,6 +57,7 @@
     <string name="tab_text_2">Tab 2</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="air">Air</string>
 
 
 </resources>

@@ -12,10 +12,10 @@ import com.codechat.beqelalutele.R;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link smsFragment#newInstance} factory method to
+ * Use the {@link airFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class smsFragment extends Fragment {
+public class airFragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -26,7 +26,7 @@ public class smsFragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public smsFragment() {
+    public airFragment() {
         // Required empty public constructor
     }
 
@@ -39,8 +39,8 @@ public class smsFragment extends Fragment {
      * @return A new instance of fragment smsFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static smsFragment newInstance(String param1, String param2) {
-        smsFragment fragment = new smsFragment();
+    public static airFragment newInstance(String param1, String param2) {
+        airFragment fragment = new airFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -61,6 +61,6 @@ public class smsFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_sms, container, false);
+        return inflater.inflate(R.layout.fragment_air, container, false);
     }
 }

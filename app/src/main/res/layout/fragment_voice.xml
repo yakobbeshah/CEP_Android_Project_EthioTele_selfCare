@@ -1,10 +1,378 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".creaditFragments.voiceFragment"
-    android:background="#D83434">
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        android:backgroundTint="#FFFFFF"
+        android:scrollbarStyle="insideInset"
+        app:cardPreventCornerOverlap="false"
+        android:layout_margin="20dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/btnbg"
+           >
+            <TextView
+                android:id="@+id/month375"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="Monthly Voice Package Credit 375min  "
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/birr95"
+                android:layout_below="@+id/month375"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="-20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="95 Birr"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_marginTop="30dp"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="18dp"
+                android:layout_marginBottom="12dp"
+                android:onClick="expand"
+                android:src="@drawable/ic_expand"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                />
+            <LinearLayout
+                android:layout_below="@id/birr95"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        android:backgroundTint="#FFFFFF"
+        android:scrollbarStyle="insideInset"
+        app:cardPreventCornerOverlap="false"
+        android:layout_margin="20dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/btnbg"
+            >
+            <TextView
+                android:id="@+id/month185"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="Monthly Voice Package Credit 185min  "
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/birr50"
+                android:layout_below="@+id/month185"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="-20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="50 Birr"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_marginTop="30dp"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="18dp"
+                android:layout_marginBottom="12dp"
+                android:onClick="expand"
+                android:src="@drawable/ic_expand"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                />
+            <LinearLayout
+                android:layout_below="@id/birr50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        android:backgroundTint="#FFFFFF"
+        android:scrollbarStyle="insideInset"
+        app:cardPreventCornerOverlap="false"
+        android:layout_margin="20dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/btnbg"
+            >
+            <TextView
+                android:id="@+id/week130"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="Weekly Voice Package Credit 130min  "
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/birr25"
+                android:layout_below="@+id/week130"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="-20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="25 Birr"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_marginTop="30dp"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="18dp"
+                android:layout_marginBottom="12dp"
+                android:onClick="expand"
+                android:src="@drawable/ic_expand"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                />
+            <LinearLayout
+                android:layout_below="@id/birr25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        android:backgroundTint="#FFFFFF"
+        android:scrollbarStyle="insideInset"
+        app:cardPreventCornerOverlap="false"
+        android:layout_margin="20dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/btnbg"
+            >
+            <TextView
+                android:id="@+id/week70"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="Weekly Voice Package Credit 70min  "
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/birr15"
+                android:layout_below="@+id/week70"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="-20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="15 Birr"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_marginTop="30dp"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="18dp"
+                android:layout_marginBottom="12dp"
+                android:onClick="expand"
+                android:src="@drawable/ic_expand"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                />
+            <LinearLayout
+                android:layout_below="@id/birr15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        android:backgroundTint="#FFFFFF"
+        android:scrollbarStyle="insideInset"
+        app:cardPreventCornerOverlap="false"
+        android:layout_margin="20dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/btnbg"
+            >
+            <TextView
+                android:id="@+id/day45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="Daily Voice Package Credit 45min  "
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/birr10"
+                android:layout_below="@+id/day45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="-20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="10 Birr"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_marginTop="30dp"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="18dp"
+                android:layout_marginBottom="12dp"
+                android:onClick="expand"
+                android:src="@drawable/ic_expand"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                />
+            <LinearLayout
+                android:layout_below="@id/birr10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        android:backgroundTint="#FFFFFF"
+        android:scrollbarStyle="insideInset"
+        app:cardPreventCornerOverlap="false"
+        android:layout_margin="20dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/btnbg"
+            >
+            <TextView
+                android:id="@+id/day20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="Monthly Voice Package Credit 185min  "
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/birr5"
+                android:layout_below="@+id/day20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="-20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="5 Birr"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_marginTop="30dp"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="18dp"
+                android:layout_marginBottom="12dp"
+                android:onClick="expand"
+                android:src="@drawable/ic_expand"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                />
+            <LinearLayout
+                android:layout_below="@id/birr5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
 
 
-</FrameLayout>
+
+</ScrollView>

@@ -4,15 +4,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".creaditFragments.internetFragment">
+    tools:context=".creaditFragments.airFragment">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
+
         <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-             app:cardCornerRadius="20dp"
+            app:cardCornerRadius="20dp"
             android:backgroundTint="#FFFFFF"
             android:scrollbarStyle="insideInset"
             app:cardPreventCornerOverlap="false"
@@ -30,7 +31,7 @@
                     android:layout_marginTop="20dp"
                     android:layout_marginEnd="20dp"
                     android:layout_marginBottom="20dp"
-                    android:text="Monthly Data Package Credit 2GB "
+                    android:text="100 Birr Airtime Credit  "
                     android:textColor="@color/black"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -43,7 +44,7 @@
                     android:layout_marginTop="-20dp"
                     android:layout_marginEnd="20dp"
                     android:layout_marginBottom="20dp"
-                    android:text="105 Birr"
+                    android:text="100 Birr"
                     android:textColor="@color/white"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -68,6 +69,7 @@
             </RelativeLayout>
 
         </com.google.android.material.card.MaterialCardView>
+
         <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -89,7 +91,7 @@
                     android:layout_marginTop="20dp"
                     android:layout_marginEnd="20dp"
                     android:layout_marginBottom="20dp"
-                    android:text="Monthly Data Package Credit 1GB "
+                    android:text="50 Birr Airtime Credit  "
                     android:textColor="@color/black"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -102,7 +104,7 @@
                     android:layout_marginTop="-20dp"
                     android:layout_marginEnd="20dp"
                     android:layout_marginBottom="20dp"
-                    android:text="60 Birr"
+                    android:text="50 Birr"
                     android:textColor="@color/white"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -127,6 +129,7 @@
             </RelativeLayout>
 
         </com.google.android.material.card.MaterialCardView>
+
         <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -148,7 +151,7 @@
                     android:layout_marginTop="20dp"
                     android:layout_marginEnd="20dp"
                     android:layout_marginBottom="20dp"
-                    android:text="Weekly Data Package Credit 1GB "
+                    android:text="25 Birr Airtime Credit "
                     android:textColor="@color/black"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -161,7 +164,7 @@
                     android:layout_marginTop="-20dp"
                     android:layout_marginEnd="20dp"
                     android:layout_marginBottom="20dp"
-                    android:text="56 Birr"
+                    android:text="25 Birr"
                     android:textColor="@color/white"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -186,6 +189,7 @@
             </RelativeLayout>
 
         </com.google.android.material.card.MaterialCardView>
+
         <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -207,7 +211,7 @@
                     android:layout_marginTop="20dp"
                     android:layout_marginEnd="20dp"
                     android:layout_marginBottom="20dp"
-                    android:text="Weekly Data Package Credit 600MB "
+                    android:text="15 Birr Airtime Credit  "
                     android:textColor="@color/black"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -220,7 +224,7 @@
                     android:layout_marginTop="-20dp"
                     android:layout_marginEnd="20dp"
                     android:layout_marginBottom="20dp"
-                    android:text="38 Birr"
+                    android:text="15 Birr"
                     android:textColor="@color/white"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -245,6 +249,7 @@
             </RelativeLayout>
 
         </com.google.android.material.card.MaterialCardView>
+
         <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -266,7 +271,7 @@
                     android:layout_marginTop="20dp"
                     android:layout_marginEnd="20dp"
                     android:layout_marginBottom="20dp"
-                    android:text="Daily Data Package Credit 200MB "
+                    android:text="10 Birr Airtime Credit  "
                     android:textColor="@color/black"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -279,7 +284,7 @@
                     android:layout_marginTop="-20dp"
                     android:layout_marginEnd="20dp"
                     android:layout_marginBottom="20dp"
-                    android:text="12 Birr"
+                    android:text="10 Birr"
                     android:textColor="@color/white"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -304,6 +309,7 @@
             </RelativeLayout>
 
         </com.google.android.material.card.MaterialCardView>
+
         <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -325,7 +331,7 @@
                     android:layout_marginTop="20dp"
                     android:layout_marginEnd="20dp"
                     android:layout_marginBottom="20dp"
-                    android:text="Daily Data Package Credit 75MB "
+                    android:text="5 Birr Airtime Credit  "
                     android:textColor="@color/black"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -364,8 +370,8 @@
 
         </com.google.android.material.card.MaterialCardView>
 
-    </LinearLayout>
 
+    </LinearLayout>
 
 
 </ScrollView>

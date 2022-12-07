@@ -27,6 +27,29 @@ public class CreditFragemnt extends Fragment {
        viewPager2=view.findViewById(R.id.view_pager);
        myViewPagerAdapter=new MyViewPagerAdapter(this);
       viewPager2.setAdapter(myViewPagerAdapter);
+      tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
+          @Override
+          public void onTabSelected(TabLayout.Tab tab) {
+             viewPager2.setCurrentItem(tab.getPosition());
+          }
+
+          @Override
+          public void onTabUnselected(TabLayout.Tab tab) {
+              viewPager2.setCurrentItem(tab.getPosition());
+          }
+
+          @Override
+          public void onTabReselected(TabLayout.Tab tab) {
+            viewPager2.setCurrentItem(tab.getPosition());
+          }
+      });
+      viewPager2.registerOnPageChangeCallback(new ViewPager2.OnPageChangeCallback() {
+          @Override
+          public void onPageSelected(int position) {
+              super.onPageSelected(position);
+              tabLayout.getTabAt(position).select();
+          }
+      });
     return view;
     }
 }
