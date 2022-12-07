@@ -13,7 +13,7 @@
         android:roundIcon="@mipmap/ic_launcher_beqelalu_tele_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BeqelaluTele"
-        tools:targetApi="31">
+        tools:targetApi="21">
         <activity
             android:name=".AboutActivity"
             android:exported="false">

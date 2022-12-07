@@ -10,7 +10,7 @@
             android:title="@string/cont">
         </item>
         <item
-            android:id="@+id/am"
+            android:id="@+id/lang"
             android:icon="@drawable/ic_lnag"
             android:title="@string/lang"/>
         <item
