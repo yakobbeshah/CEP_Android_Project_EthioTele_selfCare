@@ -18,6 +18,8 @@
             app:cardPreventCornerOverlap="false"
             android:layout_margin="20dp">
             <RelativeLayout
+                android:id="@+id/inter_1"
+                android:clickable="true"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/btnbg"
@@ -30,7 +32,7 @@
                     android:layout_marginTop="20dp"
                     android:layout_marginEnd="20dp"
                     android:layout_marginBottom="20dp"
-                    android:text="Monthly Data Package Credit 2GB "
+                    android:text="@string/i_1"
                     android:textColor="@color/black"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -43,22 +45,12 @@
                     android:layout_marginTop="-20dp"
                     android:layout_marginEnd="20dp"
                     android:layout_marginBottom="20dp"
-                    android:text="105 Birr"
+                    android:text="@string/i_1_1"
                     android:textColor="@color/white"
                     android:textSize="15sp"
                     android:textStyle="bold" />
 
-                <ImageView
-                    android:layout_marginTop="30dp"
-                    android:layout_width="40dp"
-                    android:layout_height="30dp"
-                    android:layout_marginEnd="18dp"
-                    android:layout_marginBottom="12dp"
-                    android:onClick="expand"
-                    android:src="@drawable/ic_expand"
-                    android:layout_alignParentTop="true"
-                    android:layout_alignParentRight="true"
-                    />
+
                 <LinearLayout
                     android:layout_below="@id/birr10"
                     android:layout_width="match_parent"
@@ -77,6 +69,8 @@
             app:cardPreventCornerOverlap="false"
             android:layout_margin="20dp">
             <RelativeLayout
+                android:id="@+id/inter_2"
+                android:clickable="true"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/btnbg"
@@ -89,7 +83,7 @@
                     android:layout_marginTop="20dp"
                     android:layout_marginEnd="20dp"
                     android:layout_marginBottom="20dp"
-                    android:text="Monthly Data Package Credit 1GB "
+                    android:text="@string/i_2"
                     android:textColor="@color/black"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -102,22 +96,12 @@
                     android:layout_marginTop="-20dp"
                     android:layout_marginEnd="20dp"
                     android:layout_marginBottom="20dp"
-                    android:text="60 Birr"
+                    android:text="@string/i_2_2"
                     android:textColor="@color/white"
                     android:textSize="15sp"
                     android:textStyle="bold" />
 
-                <ImageView
-                    android:layout_marginTop="30dp"
-                    android:layout_width="40dp"
-                    android:layout_height="30dp"
-                    android:layout_marginEnd="18dp"
-                    android:layout_marginBottom="12dp"
-                    android:onClick="expand"
-                    android:src="@drawable/ic_expand"
-                    android:layout_alignParentTop="true"
-                    android:layout_alignParentRight="true"
-                    />
+
                 <LinearLayout
                     android:layout_below="@id/birr50"
                     android:layout_width="match_parent"
@@ -136,6 +120,8 @@
             app:cardPreventCornerOverlap="false"
             android:layout_margin="20dp">
             <RelativeLayout
+                android:id="@+id/inter_3"
+                android:clickable="true"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/btnbg"
@@ -148,7 +134,7 @@
                     android:layout_marginTop="20dp"
                     android:layout_marginEnd="20dp"
                     android:layout_marginBottom="20dp"
-                    android:text="Weekly Data Package Credit 1GB "
+                    android:text="@string/i_3"
                     android:textColor="@color/black"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -161,22 +147,12 @@
                     android:layout_marginTop="-20dp"
                     android:layout_marginEnd="20dp"
                     android:layout_marginBottom="20dp"
-                    android:text="56 Birr"
+                    android:text="@string/i_3_3"
                     android:textColor="@color/white"
                     android:textSize="15sp"
                     android:textStyle="bold" />
 
-                <ImageView
-                    android:layout_marginTop="30dp"
-                    android:layout_width="40dp"
-                    android:layout_height="30dp"
-                    android:layout_marginEnd="18dp"
-                    android:layout_marginBottom="12dp"
-                    android:onClick="expand"
-                    android:src="@drawable/ic_expand"
-                    android:layout_alignParentTop="true"
-                    android:layout_alignParentRight="true"
-                    />
+
                 <LinearLayout
                     android:layout_below="@id/birr25"
                     android:layout_width="match_parent"
@@ -195,6 +171,8 @@
             app:cardPreventCornerOverlap="false"
             android:layout_margin="20dp">
             <RelativeLayout
+                android:id="@+id/inter_4"
+                android:clickable="true"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/btnbg"
@@ -207,7 +185,7 @@
                     android:layout_marginTop="20dp"
                     android:layout_marginEnd="20dp"
                     android:layout_marginBottom="20dp"
-                    android:text="Weekly Data Package Credit 600MB "
+                    android:text="@string/i_4"
                     android:textColor="@color/black"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -220,22 +198,12 @@
                     android:layout_marginTop="-20dp"
                     android:layout_marginEnd="20dp"
                     android:layout_marginBottom="20dp"
-                    android:text="38 Birr"
+                    android:text="@string/I_4_4"
                     android:textColor="@color/white"
                     android:textSize="15sp"
                     android:textStyle="bold" />
 
-                <ImageView
-                    android:layout_marginTop="30dp"
-                    android:layout_width="40dp"
-                    android:layout_height="30dp"
-                    android:layout_marginEnd="18dp"
-                    android:layout_marginBottom="12dp"
-                    android:onClick="expand"
-                    android:src="@drawable/ic_expand"
-                    android:layout_alignParentTop="true"
-                    android:layout_alignParentRight="true"
-                    />
+
                 <LinearLayout
                     android:layout_below="@id/birr15"
                     android:layout_width="match_parent"
@@ -254,6 +222,8 @@
             app:cardPreventCornerOverlap="false"
             android:layout_margin="20dp">
             <RelativeLayout
+                android:id="@+id/inter_5"
+                android:clickable="true"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/btnbg"
@@ -266,7 +236,7 @@
                     android:layout_marginTop="20dp"
                     android:layout_marginEnd="20dp"
                     android:layout_marginBottom="20dp"
-                    android:text="Daily Data Package Credit 200MB "
+                    android:text="@string/I_5"
                     android:textColor="@color/black"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -279,22 +249,12 @@
                     android:layout_marginTop="-20dp"
                     android:layout_marginEnd="20dp"
                     android:layout_marginBottom="20dp"
-                    android:text="12 Birr"
+                    android:text="@string/i_6_6"
                     android:textColor="@color/white"
                     android:textSize="15sp"
                     android:textStyle="bold" />
 
-                <ImageView
-                    android:layout_marginTop="30dp"
-                    android:layout_width="40dp"
-                    android:layout_height="30dp"
-                    android:layout_marginEnd="18dp"
-                    android:layout_marginBottom="12dp"
-                    android:onClick="expand"
-                    android:src="@drawable/ic_expand"
-                    android:layout_alignParentTop="true"
-                    android:layout_alignParentRight="true"
-                    />
+
                 <LinearLayout
                     android:layout_below="@id/birr101"
                     android:layout_width="match_parent"
@@ -313,6 +273,8 @@
             app:cardPreventCornerOverlap="false"
             android:layout_margin="20dp">
             <RelativeLayout
+                android:id="@+id/inter_6"
+                android:clickable="true"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/btnbg"
@@ -325,7 +287,7 @@
                     android:layout_marginTop="20dp"
                     android:layout_marginEnd="20dp"
                     android:layout_marginBottom="20dp"
-                    android:text="Daily Data Package Credit 75MB "
+                    android:text="@string/i_6"
                     android:textColor="@color/black"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -338,22 +300,12 @@
                     android:layout_marginTop="-20dp"
                     android:layout_marginEnd="20dp"
                     android:layout_marginBottom="20dp"
-                    android:text="5 Birr"
+                    android:text="@string/i_6_7"
                     android:textColor="@color/white"
                     android:textSize="15sp"
                     android:textStyle="bold" />
 
-                <ImageView
-                    android:layout_marginTop="30dp"
-                    android:layout_width="40dp"
-                    android:layout_height="30dp"
-                    android:layout_marginEnd="18dp"
-                    android:layout_marginBottom="12dp"
-                    android:onClick="expand"
-                    android:src="@drawable/ic_expand"
-                    android:layout_alignParentTop="true"
-                    android:layout_alignParentRight="true"
-                    />
+
                 <LinearLayout
                     android:layout_below="@id/birr5"
                     android:layout_width="match_parent"

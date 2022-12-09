@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
         android:id="@+id/home"
         android:icon="@drawable/ic_home"
-        android:title="Home"/>
+        android:title="@string/home"/>
     <item
         android:id="@+id/account"
         android:icon="@drawable/ic_account_balance"
-        android:title="Account"/>
+        android:title="@string/acc" />
     <item
         android:id="@+id/g_package"
         android:icon="@drawable/ic_package"
-        android:title="Package"/>
+        android:title="@string/Package"/>
     <item
         android:id="@+id/credit"
         android:icon="@drawable/ic_credit"
-        android:title="Credit"/>
+        android:title="@string/cre"/>
 
 
 </menu>

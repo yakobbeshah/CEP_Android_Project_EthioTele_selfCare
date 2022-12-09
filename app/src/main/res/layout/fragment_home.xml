@@ -37,15 +37,16 @@
                      android:textSize="20sp"
                      android:textStyle="bold" />
 
-                 <ImageView
-                     android:layout_width="40dp"
-                     android:layout_height="30dp"
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
                      android:layout_alignParentEnd="true"
                      android:layout_alignParentBottom="true"
+                     android:layout_marginStart="18dp"
                      android:layout_marginEnd="18dp"
                      android:layout_marginBottom="12dp"
-                     android:onClick="expand"
-                     android:src="@drawable/ic_baseline_arrow" />
+                     android:text="@string/account_text"
+                     />
              </RelativeLayout>
 
          </com.google.android.material.card.MaterialCardView>
@@ -76,15 +77,16 @@
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
-                <ImageView
-                    android:layout_width="40dp"
-                    android:layout_height="30dp"
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
                     android:layout_alignParentBottom="true"
+                    android:layout_marginStart="18dp"
                     android:layout_marginEnd="18dp"
                     android:layout_marginBottom="12dp"
-                    android:onClick="expand"
-                    android:src="@drawable/ic_baseline_arrow" />
+                    android:text="@string/pachage_text"
+                    />
             </RelativeLayout>
         </com.google.android.material.card.MaterialCardView>
 
@@ -114,16 +116,16 @@
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
-                <ImageView
-                    android:layout_width="40dp"
-                    android:layout_height="30dp"
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
                     android:layout_alignParentBottom="true"
-
+                    android:layout_marginStart="18dp"
                     android:layout_marginEnd="18dp"
                     android:layout_marginBottom="12dp"
-                    android:onClick="expand"
-                    android:src="@drawable/ic_baseline_arrow" />
+                    android:text="@string/creadit_text"
+                    />
             </RelativeLayout>
         </com.google.android.material.card.MaterialCardView>
 
@@ -154,15 +156,16 @@
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
-                <ImageView
-                    android:layout_width="40dp"
-                    android:layout_height="30dp"
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
                     android:layout_alignParentBottom="true"
+                    android:layout_marginStart="18dp"
                     android:layout_marginEnd="18dp"
                     android:layout_marginBottom="12dp"
-                    android:onClick="expand"
-                    android:src="@drawable/ic_baseline_arrow" />
+                    android:text="@string/about_text"
+                    />
             </RelativeLayout>
         </com.google.android.material.card.MaterialCardView>
 

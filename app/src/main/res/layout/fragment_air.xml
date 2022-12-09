@@ -19,6 +19,8 @@
             app:cardPreventCornerOverlap="false"
             android:layout_margin="20dp">
             <RelativeLayout
+                android:id="@+id/month_1"
+                android:clickable="true"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/btnbg"
@@ -31,7 +33,7 @@
                     android:layout_marginTop="20dp"
                     android:layout_marginEnd="20dp"
                     android:layout_marginBottom="20dp"
-                    android:text="100 Birr Airtime Credit  "
+                    android:text="@string/air_1"
                     android:textColor="@color/black"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -44,22 +46,12 @@
                     android:layout_marginTop="-20dp"
                     android:layout_marginEnd="20dp"
                     android:layout_marginBottom="20dp"
-                    android:text="100 Birr"
+                    android:text="@string/_100_birr"
                     android:textColor="@color/white"
                     android:textSize="15sp"
                     android:textStyle="bold" />
 
-                <ImageView
-                    android:layout_marginTop="30dp"
-                    android:layout_width="40dp"
-                    android:layout_height="30dp"
-                    android:layout_marginEnd="18dp"
-                    android:layout_marginBottom="12dp"
-                    android:onClick="expand"
-                    android:src="@drawable/ic_expand"
-                    android:layout_alignParentTop="true"
-                    android:layout_alignParentRight="true"
-                    />
+
                 <LinearLayout
                     android:layout_below="@id/birr10"
                     android:layout_width="match_parent"
@@ -79,10 +71,13 @@
             app:cardPreventCornerOverlap="false"
             android:layout_margin="20dp">
             <RelativeLayout
+                android:id="@+id/month_2"
+                android:clickable="true"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/btnbg"
                 >
+
                 <TextView
                     android:id="@+id/month185"
                     android:layout_width="wrap_content"
@@ -91,7 +86,7 @@
                     android:layout_marginTop="20dp"
                     android:layout_marginEnd="20dp"
                     android:layout_marginBottom="20dp"
-                    android:text="50 Birr Airtime Credit  "
+                    android:text="@string/air_2"
                     android:textColor="@color/black"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -104,22 +99,12 @@
                     android:layout_marginTop="-20dp"
                     android:layout_marginEnd="20dp"
                     android:layout_marginBottom="20dp"
-                    android:text="50 Birr"
+                    android:text="@string/_50_birr"
                     android:textColor="@color/white"
                     android:textSize="15sp"
                     android:textStyle="bold" />
 
-                <ImageView
-                    android:layout_marginTop="30dp"
-                    android:layout_width="40dp"
-                    android:layout_height="30dp"
-                    android:layout_marginEnd="18dp"
-                    android:layout_marginBottom="12dp"
-                    android:onClick="expand"
-                    android:src="@drawable/ic_expand"
-                    android:layout_alignParentTop="true"
-                    android:layout_alignParentRight="true"
-                    />
+
                 <LinearLayout
                     android:layout_below="@id/birr50"
                     android:layout_width="match_parent"
@@ -139,6 +124,8 @@
             app:cardPreventCornerOverlap="false"
             android:layout_margin="20dp">
             <RelativeLayout
+                android:id="@+id/month_3"
+                android:clickable="true"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/btnbg"
@@ -151,7 +138,7 @@
                     android:layout_marginTop="20dp"
                     android:layout_marginEnd="20dp"
                     android:layout_marginBottom="20dp"
-                    android:text="25 Birr Airtime Credit "
+                    android:text="@string/air_3"
                     android:textColor="@color/black"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -164,22 +151,12 @@
                     android:layout_marginTop="-20dp"
                     android:layout_marginEnd="20dp"
                     android:layout_marginBottom="20dp"
-                    android:text="25 Birr"
+                    android:text="@string/_25_birr"
                     android:textColor="@color/white"
                     android:textSize="15sp"
                     android:textStyle="bold" />
 
-                <ImageView
-                    android:layout_marginTop="30dp"
-                    android:layout_width="40dp"
-                    android:layout_height="30dp"
-                    android:layout_marginEnd="18dp"
-                    android:layout_marginBottom="12dp"
-                    android:onClick="expand"
-                    android:src="@drawable/ic_expand"
-                    android:layout_alignParentTop="true"
-                    android:layout_alignParentRight="true"
-                    />
+
                 <LinearLayout
                     android:layout_below="@id/birr25"
                     android:layout_width="match_parent"
@@ -199,6 +176,8 @@
             app:cardPreventCornerOverlap="false"
             android:layout_margin="20dp">
             <RelativeLayout
+                android:id="@+id/month_4"
+                android:clickable="true"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/btnbg"
@@ -211,7 +190,7 @@
                     android:layout_marginTop="20dp"
                     android:layout_marginEnd="20dp"
                     android:layout_marginBottom="20dp"
-                    android:text="15 Birr Airtime Credit  "
+                    android:text="@string/air_4"
                     android:textColor="@color/black"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -224,22 +203,12 @@
                     android:layout_marginTop="-20dp"
                     android:layout_marginEnd="20dp"
                     android:layout_marginBottom="20dp"
-                    android:text="15 Birr"
+                    android:text="@string/_15_birr"
                     android:textColor="@color/white"
                     android:textSize="15sp"
                     android:textStyle="bold" />
 
-                <ImageView
-                    android:layout_marginTop="30dp"
-                    android:layout_width="40dp"
-                    android:layout_height="30dp"
-                    android:layout_marginEnd="18dp"
-                    android:layout_marginBottom="12dp"
-                    android:onClick="expand"
-                    android:src="@drawable/ic_expand"
-                    android:layout_alignParentTop="true"
-                    android:layout_alignParentRight="true"
-                    />
+
                 <LinearLayout
                     android:layout_below="@id/birr15"
                     android:layout_width="match_parent"
@@ -259,6 +228,8 @@
             app:cardPreventCornerOverlap="false"
             android:layout_margin="20dp">
             <RelativeLayout
+                android:id="@+id/month_5"
+                android:clickable="true"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/btnbg"
@@ -271,7 +242,7 @@
                     android:layout_marginTop="20dp"
                     android:layout_marginEnd="20dp"
                     android:layout_marginBottom="20dp"
-                    android:text="10 Birr Airtime Credit  "
+                    android:text="@string/air_5"
                     android:textColor="@color/black"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -284,22 +255,12 @@
                     android:layout_marginTop="-20dp"
                     android:layout_marginEnd="20dp"
                     android:layout_marginBottom="20dp"
-                    android:text="10 Birr"
+                    android:text="@string/_10_birr"
                     android:textColor="@color/white"
                     android:textSize="15sp"
                     android:textStyle="bold" />
 
-                <ImageView
-                    android:layout_marginTop="30dp"
-                    android:layout_width="40dp"
-                    android:layout_height="30dp"
-                    android:layout_marginEnd="18dp"
-                    android:layout_marginBottom="12dp"
-                    android:onClick="expand"
-                    android:src="@drawable/ic_expand"
-                    android:layout_alignParentTop="true"
-                    android:layout_alignParentRight="true"
-                    />
+
                 <LinearLayout
                     android:layout_below="@id/birr101"
                     android:layout_width="match_parent"
@@ -319,6 +280,8 @@
             app:cardPreventCornerOverlap="false"
             android:layout_margin="20dp">
             <RelativeLayout
+                android:id="@+id/month_6"
+                android:clickable="true"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/btnbg"
@@ -331,7 +294,7 @@
                     android:layout_marginTop="20dp"
                     android:layout_marginEnd="20dp"
                     android:layout_marginBottom="20dp"
-                    android:text="5 Birr Airtime Credit  "
+                    android:text="@string/air_6"
                     android:textColor="@color/black"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -344,22 +307,12 @@
                     android:layout_marginTop="-20dp"
                     android:layout_marginEnd="20dp"
                     android:layout_marginBottom="20dp"
-                    android:text="5 Birr"
+                    android:text="@string/_5_birr"
                     android:textColor="@color/white"
                     android:textSize="15sp"
                     android:textStyle="bold" />
 
-                <ImageView
-                    android:layout_marginTop="30dp"
-                    android:layout_width="40dp"
-                    android:layout_height="30dp"
-                    android:layout_marginEnd="18dp"
-                    android:layout_marginBottom="12dp"
-                    android:onClick="expand"
-                    android:src="@drawable/ic_expand"
-                    android:layout_alignParentTop="true"
-                    android:layout_alignParentRight="true"
-                    />
+
                 <LinearLayout
                     android:layout_below="@id/birr5"
                     android:layout_width="match_parent"

@@ -171,7 +171,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
             Intent intent = new Intent();
             intent.setAction(Intent.ACTION_SEND);
             intent.setType("text/plain");
-            intent.putExtra(Intent.EXTRA_TEXT, "This is the share text");
+            intent.putExtra(Intent.EXTRA_TEXT, "Look Our project on github \n https://github.com/yakobbeshah/CEP_Android_Project_EthioTele_selfCare");
             startActivity(Intent.createChooser(intent, "Beqelalu Tele"));
         }
         if (id == R.id.lang){

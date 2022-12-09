@@ -15,21 +15,49 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/voi"/>
+
         <com.google.android.material.tabs.TabItem
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/air"/>
+            android:text="@string/air" />
+
         <com.google.android.material.tabs.TabItem
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/internet"/>
+            android:text="@string/internet" />
 
     </com.google.android.material.tabs.TabLayout>
-<androidx.viewpager2.widget.ViewPager2
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:id="@+id/view_pager"
-    android:layout_below="@+id/tab_Layout"/>
+
+    <LinearLayout
+        android:id="@+id/myButton"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/tab_Layout"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/can"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/btnbg"
+            android:layout_margin="10dp"
+            android:text="@string/loan_amount" />
+
+        <Button
+            android:id="@+id/match"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/btnbg"
+            android:layout_margin="10dp"
+            android:text="@string/i_can_borrow" />
+
+    </LinearLayout>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="511dp"
+        android:layout_below="@+id/myButton" />
 
 
 </RelativeLayout>

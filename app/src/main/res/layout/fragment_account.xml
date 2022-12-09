@@ -20,9 +20,10 @@
             android:orientation="vertical">
             <Button
                 android:id="@+id/ask"
-                android:layout_width="370sp"
+                android:layout_width="match_parent"
                 android:layout_height="100sp"
-                android:layout_marginLeft="30sp"
+                android:layout_marginEnd="30sp"
+                android:layout_marginStart="30sp"
                 android:textAlignment="textStart"
                 android:text="@string/bal"
                 android:textAllCaps="false"
@@ -34,9 +35,10 @@
                 android:textSize="30sp"
                 />
             <LinearLayout
-                android:layout_width="370sp"
+                android:layout_width="match_parent"
                 android:layout_height="150sp"
-                android:layout_marginLeft="30sp"
+                android:layout_marginEnd="30sp"
+                android:layout_marginStart="30sp"
                 android:layout_marginTop="20dp"
                 android:textAlignment="textStart"
                 android:text="@string/bal"
@@ -63,9 +65,10 @@
                     android:background="@drawable/btnbg2"/>
             </LinearLayout>
             <LinearLayout
-                android:layout_width="370sp"
+                android:layout_width="match_parent"
                 android:layout_height="200sp"
-                android:layout_marginLeft="30sp"
+                android:layout_marginEnd="30sp"
+                android:layout_marginStart="30sp"
                 android:layout_marginTop="20sp"
                 android:textAlignment="textStart"
                 android:text="@string/bal"
@@ -101,9 +104,10 @@
                     android:background="@drawable/btnbg2"/>
             </LinearLayout>
             <LinearLayout
-                android:layout_width="370sp"
+                android:layout_width="match_parent"
                 android:layout_height="150sp"
-                android:layout_marginLeft="30sp"
+                android:layout_marginEnd="30sp"
+                android:layout_marginStart="30sp"
                 android:layout_marginTop="20sp"
                 android:textAlignment="textStart"
                 android:text="@string/bal"

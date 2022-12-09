@@ -43,6 +43,10 @@
     <string name="enter_the_ph_number">Please insert The Phone Number</string>
     <string name="enter_the_card_number">Pleas insert The Card Number</string>
     <string name="aboutus">The tasks that our application does are to easily perform the main services of Ethio Tele, such as asking for a bill, sending money, as well as package services and credit services.</string>
+    <string name="account_text">This section contains various standard teleservices</string>
+    <string name="pachage_text">This section contains various chart package teleservices</string>
+    <string name="creadit_text">This section contains various credit teleservices</string>
+    <string name="about_text">If you want to know about us, click this section</string>
     <string name="name">
        <br>Yakob Beshahwered \n</br>
        <br>Akrem Muktar \n</br>
@@ -58,6 +62,44 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="air">Air</string>
+    <string name="air_1">100 Birr Airtime Credit</string>
+    <string name="_100_birr">100 Birr</string>
+    <string name="air_2">50 Birr Airtime Credit</string>
+    <string name="_50_birr">50 Birr</string>
+    <string name="air_3">25 Birr Airtime Credit</string>
+    <string name="_25_birr">25 Birr</string>
+    <string name="air_4">15 Birr Airtime Credit</string>
+    <string name="_15_birr">15 Birr</string>
+    <string name="air_5">10 Birr Airtime Credit</string>
+    <string name="_10_birr">10 Birr</string>
+    <string name="air_6">5 Birr Airtime Credit</string>
+    <string name="_5_birr">5 Birr</string>
+    <string name="v_1">Monthly Voice Package Credit 375min</string>
+    <string name="v_1_1">95 Birr</string>
+    <string name="v_2">Monthly Voice Package Credit 185min</string>
+    <string name="v_2_2">50 Birr</string>
+    <string name="v_3">Weekly Voice Package Credit 130min</string>
+    <string name="v_3_3">25 Birr</string>
+    <string name="v_4">Weekly Voice Package Credit 70min</string>
+    <string name="v_4_4">15 Birr</string>
+    <string name="v_5">Daily Voice Package Credit 45min</string>
+    <string name="v_5_5">10 Birr</string>
+    <string name="v_6">Monthly Voice Package Credit 185min</string>
+    <string name="v_6_6">5 Birr</string>
+    <string name="i_1">Monthly Data Package Credit 2GB</string>
+    <string name="i_1_1">105 Birr</string>
+    <string name="i_2">Monthly Data Package Credit 1GB</string>
+    <string name="i_2_2">60 Birr</string>
+    <string name="i_3">Weekly Data Package Credit 1GB</string>
+    <string name="i_3_3">56 Birr</string>
+    <string name="i_4">Weekly Data Package Credit 600MB</string>
+    <string name="I_4_4">38 Birr</string>
+    <string name="I_5">Daily Data Package Credit 200MB</string>
+    <string name="i_6_6">12 Birr</string>
+    <string name="i_6">Daily Data Package Credit 75MB</string>
+    <string name="i_6_7">5 Birr</string>
+    <string name="loan_amount">Loan amount</string>
+    <string name="i_can_borrow">I can borrow</string>
 
 
 </resources>

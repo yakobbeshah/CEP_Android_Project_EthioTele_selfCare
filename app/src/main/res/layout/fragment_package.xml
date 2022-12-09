@@ -11,14 +11,15 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="vertical"
             android:paddingBottom="50dp">
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="190sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:orientation="horizontal">
                 <Button
+                    android:id="@+id/btn1"
                     android:layout_width="150sp"
                     android:layout_height="150sp"
                     android:text="@string/voi"
@@ -29,21 +30,23 @@
                     android:layout_margin="60px"
                     android:background="@drawable/btnbg"/>
                 <Button
+                    android:id="@+id/btn2"
                     android:layout_width="150sp"
                     android:layout_height="150sp"
                     android:text="@string/internet"
                     android:textColor="#fff"
-                    android:textSize="25sp"
+                    android:textSize="20sp"
                     android:fontFamily="monospace"
                     android:textAllCaps="false"
                     android:layout_margin="60px"
                     android:background="@drawable/btnbg"/>
             </LinearLayout>
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="190sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:orientation="horizontal">
                 <Button
+                    android:id="@+id/btn3"
                     android:layout_width="150sp"
                     android:layout_height="150sp"
                     android:text="@string/sms"
@@ -55,23 +58,24 @@
                     android:background="@drawable/btnbg"/>
 
                 <Button
+                    android:id="@+id/btn4"
                     android:layout_width="150sp"
-                    android:layout_height="150sp"
+                    android:layout_height="match_parent"
                     android:text="@string/one_birr"
                     android:textColor="#fff"
                     android:textSize="20sp"
                     android:fontFamily="monospace"
                     android:textAllCaps="false"
-                    android:layout_marginTop="27px"
-                    android:layout_marginLeft="60px"
+                    android:layout_margin="60px"
                     android:background="@drawable/btnbg"
                      />
             </LinearLayout>
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="190sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:orientation="horizontal">
                 <Button
+                    android:id="@+id/btn5"
                     android:layout_width="150sp"
                     android:layout_height="150sp"
                     android:text="@string/flx_pac"
@@ -81,22 +85,25 @@
                     android:textAllCaps="false"
                     android:layout_margin="60px"
                     android:background="@drawable/btnbg"/>
+
                 <Button
+                    android:id="@+id/btn6"
                     android:layout_width="150sp"
-                    android:layout_height="150sp"
-                    android:text="@string/voice_data"
-                    android:textColor="#fff"
-                    android:textSize="20sp"
-                    android:fontFamily="monospace"
-                    android:textAllCaps="false"
+                    android:layout_height="match_parent"
                     android:layout_margin="60px"
-                    android:background="@drawable/btnbg"/>
+                    android:background="@drawable/btnbg"
+                    android:fontFamily="monospace"
+                    android:text="@string/voice_data"
+                    android:textAllCaps="false"
+                    android:textColor="#fff"
+                    android:textSize="20sp" />
             </LinearLayout>
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="190sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:orientation="horizontal">
                 <Button
+                    android:id="@+id/btn7"
                     android:layout_width="150sp"
                     android:layout_height="150sp"
                     android:text="@string/unl_pre"
@@ -107,6 +114,7 @@
                     android:layout_margin="60px"
                     android:background="@drawable/btnbg"/>
                 <Button
+                    android:id="@+id/btn8"
                     android:layout_width="150sp"
                     android:layout_height="150sp"
                     android:text="@string/long_run_pac"
@@ -118,10 +126,11 @@
                     android:background="@drawable/btnbg"/>
             </LinearLayout>
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="190sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:orientation="horizontal">
                 <Button
+                    android:id="@+id/btn9"
                     android:layout_width="150sp"
                     android:layout_height="150sp"
                     android:text="@string/daily"
@@ -132,6 +141,7 @@
                     android:layout_margin="60px"
                     android:background="@drawable/btnbg"/>
                 <Button
+                    android:id="@+id/btn10"
                     android:layout_width="150sp"
                     android:layout_height="150sp"
                     android:text="@string/long_run_pac"
