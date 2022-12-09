@@ -12,21 +12,24 @@ The tasks that our application does are to easily perform the main services of E
  <li>Kidus Belay</li>
  <li>Surafel Eyob<li>
  </ul>
+ <div display="inline">
 <img src="https://github.com/yakobbeshah/CEP_Android_Project_EthioTele_selfCare/blob/master/image/img-1.jpg" width="100px" height="250px"/>
 <img src="https://github.com/yakobbeshah/CEP_Android_Project_EthioTele_selfCare/blob/master/image/img-2.jpg" width="100px" height="250px"/>
 <img src="https://github.com/yakobbeshah/CEP_Android_Project_EthioTele_selfCare/blob/master/image/img-3.jpg" width="100px" height="250px"/>
-<img src="https://github.com/yakobbeshah/CEP_Android_Project_EthioTele_selfCare/blob/master/image/img-4.jpg" width="100px" height="250px"/>
-<img src="https://github.com/yakobbeshah/CEP_Android_Project_EthioTele_selfCare/blob/master/image/img-5.jpg" width="100px" height="250px"/>
-<img src="https://github.com/yakobbeshah/CEP_Android_Project_EthioTele_selfCare/blob/master/image/img-6.jpg" width="100px" height="250px"/>
-<img src="https://github.com/yakobbeshah/CEP_Android_Project_EthioTele_selfCare/blob/master/image/img-7.jpg" width="100px" height="250px"/>
-<img src="https://github.com/yakobbeshah/CEP_Android_Project_EthioTele_selfCare/blob/master/image/img-8.jpg" width="100px" height="250px"/>
-<img src="https://github.com/yakobbeshah/CEP_Android_Project_EthioTele_selfCare/blob/master/image/img-9.jpg" width="100px" height="250px"/>
-<img src="https://github.com/yakobbeshah/CEP_Android_Project_EthioTele_selfCare/blob/master/image/img-10.jpg" width="100px" height="250px"/>
-<img src="https://github.com/yakobbeshah/CEP_Android_Project_EthioTele_selfCare/blob/master/image/img-11.jpg" width="100px" height="250px"/>
-<img src="https://github.com/yakobbeshah/CEP_Android_Project_EthioTele_selfCare/blob/master/image/img-12.jpg" width="100px" height="250px"/>
-<img src="https://github.com/yakobbeshah/CEP_Android_Project_EthioTele_selfCare/blob/master/image/img-13.jpg" width="100px" height="250px"/>
-<img src="https://github.com/yakobbeshah/CEP_Android_Project_EthioTele_selfCare/blob/master/image/img-14.jpg" width="100px" height="250px"/>
-<img src="https://github.com/yakobbeshah/CEP_Android_Project_EthioTele_selfCare/blob/master/image/img-15.jpg" width="100px" height="250px"/>
-<img src="https://github.com/yakobbeshah/CEP_Android_Project_EthioTele_selfCare/blob/master/image/img-16.jpg" width="100px" height="250px"/>
-<img src="https://github.com/yakobbeshah/CEP_Android_Project_EthioTele_selfCare/blob/master/image/img-17.jpg" width="100px" height="250px"/>
+<img src="https://github.com/yakobbeshah/CEP_Android_Project_EthioTele_selfCare/blob/master/image/img4.jpg" width="100px" height="250px"/>
+<img src="https://github.com/yakobbeshah/CEP_Android_Project_EthioTele_selfCare/blob/master/image/img5.jpg" width="100px" height="250px"/>
+<img src="https://github.com/yakobbeshah/CEP_Android_Project_EthioTele_selfCare/blob/master/image/img6.jpg" width="100px" height="250px"/>
+<img src="https://github.com/yakobbeshah/CEP_Android_Project_EthioTele_selfCare/blob/master/image/img7.jpg" width="100px" height="250px"/>
+<img src="https://github.com/yakobbeshah/CEP_Android_Project_EthioTele_selfCare/blob/master/image/img8.jpg" width="100px" height="250px"/>
+<img src="https://github.com/yakobbeshah/CEP_Android_Project_EthioTele_selfCare/blob/master/image/img9.jpg" width="100px" height="250px"/>
+<img src="https://github.com/yakobbeshah/CEP_Android_Project_EthioTele_selfCare/blob/master/image/img10.jpg" width="100px" height="250px"/>
+<img src="https://github.com/yakobbeshah/CEP_Android_Project_EthioTele_selfCare/blob/master/image/img11.jpg" width="100px" height="250px"/>
+<img src="https://github.com/yakobbeshah/CEP_Android_Project_EthioTele_selfCare/blob/master/image/img12.jpg" width="100px" height="250px"/>
+<img src="https://github.com/yakobbeshah/CEP_Android_Project_EthioTele_selfCare/blob/master/image/img13.jpg" width="100px" height="250px"/>
+<img src="https://github.com/yakobbeshah/CEP_Android_Project_EthioTele_selfCare/blob/master/image/img14.jpg" width="100px" height="250px"/>
+<img src="https://github.com/yakobbeshah/CEP_Android_Project_EthioTele_selfCare/blob/master/image/img15.jpg" width="100px" height="250px"/>
+<img src="https://github.com/yakobbeshah/CEP_Android_Project_EthioTele_selfCare/blob/master/image/img16.jpg" width="100px" height="250px"/>
+<img src="https://github.com/yakobbeshah/CEP_Android_Project_EthioTele_selfCare/blob/master/image/img17.jpg" width="100px" height="250px"/>
+<img src="https://github.com/yakobbeshah/CEP_Android_Project_EthioTele_selfCare/blob/master/image/img18.jpg" width="100px" height="250px"/>
+</div>
 
