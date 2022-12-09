@@ -33,3 +33,5 @@ The tasks that our application does are to easily perform the main services of E
 <img src="https://github.com/yakobbeshah/CEP_Android_Project_EthioTele_selfCare/blob/master/image/img18.jpg" width="100px" height="250px"/>
 </div>
 
+<h1>© 2022 codeChat, H.U .</h1>
+
