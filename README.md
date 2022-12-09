@@ -12,4 +12,4 @@ The tasks that our application does are to easily perform the main services of E
  <li>Kidus Belay</li>
  <li>Surafel Eyob<li>
  </ul>
-<img src="image/img1"/>
+<img src="https://github.com/yakobbeshah/CEP_Android_Project_EthioTele_selfCare/tree/master/image/img1"/>
